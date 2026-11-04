@@ -201,12 +201,12 @@ main {
    bottom: 20px;
    right: 20px;
    display: flex;
-   flex-direction: column; /* Empilha os botões verticalmente */
-   gap: 12px;             /* Espaçamento de 12px entre eles */
-   z-index: 9999;         /* Garante que fiquem acima de tudo */
+   flex-direction: column; /* Empilha um botão em cima do outro */
+   gap: 12px;             /* Dá espaço entre eles */
+   z-index: 9999;         /* Garante que fiquem visíveis por cima de tudo */
 }
 
-/* Estilo base compartilhado por ambos os botões */
+/* Estilo base compartilhado pelos dois botões */
 .contact-btn {
    width: 55px;
    height: 55px;
@@ -218,7 +218,7 @@ main {
    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Cor customizada do WhatsApp */
+/* Cor verde clássica do WhatsApp */
 .whatsapp-btn {
    background-color: #25d366;
 }
@@ -227,7 +227,7 @@ main {
    transform: scale(1.1);
 }
 
-
+/* Cor azul corporativa do E-mail */
 .email-btn {
    background-color: #0078d4; 
 }
@@ -236,7 +236,7 @@ main {
    transform: scale(1.1);
 }
 
-/* Tamanho estrito dos ícones internos */
+/* Tamanho controlado dos ícones internos */
 .contact-icon {
    width: 30px;
    height: 30px;
