@@ -196,52 +196,6 @@ main {
    height: 35px;
 }
 
-.floating-contact-container {
-   position: fixed;
-   bottom: 20px;
-   right: 20px;
-   display: flex;
-   flex-direction: column; /* Empilha um botão em cima do outro */
-   gap: 12px;             /* Dá espaço entre eles */
-   z-index: 9999;         /* Garante que fiquem visíveis por cima de tudo */
-}
-
-/* Estilo base compartilhado pelos dois botões */
-.contact-btn {
-   width: 55px;
-   height: 55px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-   transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-/* Cor verde clássica do WhatsApp */
-.whatsapp-btn {
-   background-color: #25d366;
-}
-.whatsapp-btn:hover {
-   background-color: #20ba5a;
-   transform: scale(1.1);
-}
-
-/* Cor azul corporativa do E-mail */
-.email-btn {
-   background-color: #0078d4; 
-}
-.email-btn:hover {
-   background-color: #006cc1;
-   transform: scale(1.1);
-}
-
-/* Tamanho controlado dos ícones internos */
-.contact-icon {
-   width: 30px;
-   height: 30px;
-}
-
 /* 5. Rodapé */
 footer {
   background-color: #1e293b;
